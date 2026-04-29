@@ -5,11 +5,25 @@ A dynamic, terminal-themed portfolio designed to showcase offensive security ski
 ## Tech Stack
 * **Frontend:** HTML5, CSS3 (CSS Variables, Flexbox, Grid), Vanilla JS, jQuery
 * **Backend:** Node.JS
+* **Architecture:** Custom HTTP server handling manual routing and MIME type assignment using core `http`, `fs`, and `path` modules.
+* **Tools** NPM, Nodemon (used in development)
 * **Design:** "Matrix/Terminal" aesthetic with custom clip-path UI elements.
 
 ## How to Run Locally
-1. Clone the repository: `git clone <your-repo-link>`
-2. Create a virtual environment: `python -m venv venv`
-3. Activate the environment: `source venv/bin/activate` (Linux/Mac)
-4. Install dependencies: `pip install Flask`
-5. Run the server: `python app.py`
+1. Clone the repository: 
+   ```bash
+   git clone https://github.com/nicolas-raducan/cyber-portofolio-node.js
+
+2. Navigate into the project directory:
+    cd nodeJsPortofolio
+
+3.Install dependencies:
+    npm install
+
+## Running the Server
+
+For Development (Auto-restarts on file changes):
+npm run dev
+
+## For Production:
+npm start
