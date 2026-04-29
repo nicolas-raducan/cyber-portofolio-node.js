@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nicolas Cybersecurity Pentester & Offensive Security Specialist</title>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <header>
+            <div class="nav-wrapper">
+                <nav class="pill-nav">
+                    <ul>
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section id="hero" class="hero-section">
+                <div class="hero-container">
+                    <div class="hero-text-content">
+                        <h1>Breaking into <span class="highlight-text">digital</span> systems and creating solutions for better security!</h1>
+                        <p class="legal-disclaimer">*legally</p>
+                    </div>
+                    
+                    <div class="button-wrapper-right">
+                        <button id="scroll-to-contact" class="huge-outline-btn">Contact Me</button>
+                    </div>
+                   
+                </div>
+            </section>
+
+            <section id="projects">
+                <h2>Featured Projects</h2>
+                
+                <div class="carousel-container">
+                    <button id="prev-project" class="carousel-btn">&lt;</button>
+                    
+                    <div class="carousel-track-wrapper">
+                        <div class="carousel-track">
+                            
+                            <article class="cyber-card">
+                                <h3 class="cyber-heading">Simple To-do list</h3>
+                                <p class="cyber-text">Built with HTML, CSS, JS.</p>
+                                <button class="details-btn cyber-btn">View Details</button>
+                                <div class="project-details" style="display: none;">
+                                    <p>A dynamic task management application featuring local storage persistence.</p>
+                                </div>
+                            </article>
+
+                            <article class="cyber-card">
+                                <h3 class="cyber-heading">Network Scanner</h3>
+                                <p class="cyber-text">Built with Python.</p>
+                                <button class="details-btn cyber-btn">View Details</button>
+                                <div class="project-details" style="display: none;">
+                                    <p>A lightweight subnet scanner to identify active hosts and open ports.</p>
+                                </div>
+                            </article>
+
+                        </div>
+                    </div>
+                    
+                    <button id="next-project" class="carousel-btn">&gt;</button>
+                </div>
+            </section>
+            
+            <section id="skills-section">
+                <h2>Core Skills</h2>
+
+                <div class="skills-slider">
+                    <div class="skills-track">
+                        <div class="skill">Networking</div>
+                        <div class="skill">CCNA</div>
+                        <div class="skill">Linux Administration</div>
+                        <div class="skill">Server Management</div>
+                        <div class="skill">Python</div>
+                        <div class="skill">C/C++</div>
+                        <div class="skill">Java</div>
+                        <div class="skill">Bash</div>
+                        <div class="skill">HTML5</div>
+                        <div class="skill">CSS & Flexbox</div>
+                        <div class="skill">JavaScript</div>
+                        <div class="skill">SQL</div>
+                        <div class="skill">Mobile Device Management</div>
+                        <div class="skill">Proxy and Virtual Private Server</div>
+                        <div class="skill">Digital Marketing</div>
+                        <div class="skill">Financial Accounting</div>
+                        <div class="skill">Direct Client Interaction</div> 
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="contact-section">
+                <h2>Initiate_Connection</h2>
+                <form id="contact-form" class="cyber-form">
+                    <div class="form-group">
+                        <label for="name">Alias / Name:</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your designation">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Comm-Link / Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="user@domain.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Payload / Message:</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Type your message here..."></textarea>
+                    </div>
+                    <button type="submit" class="huge-outline-btn cyber-submit">Transmit_Data</button>
+                </form>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>&copy; Nicolas Raducan 2026</p>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
