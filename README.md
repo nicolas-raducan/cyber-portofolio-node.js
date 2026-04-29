@@ -12,7 +12,7 @@ A dynamic, terminal-themed portfolio designed to showcase offensive security ski
 ## How to Run Locally
 **1. Clone the repository:**
 ```bash
-git clone [https://github.com/nicolas-raducan/cyber-portfolio-node.git]
+git clone https://github.com/nicolas-raducan/cyber-portfolio-node.git
 ```
 
 **2. Navigate into the project directory:**
