@@ -10,29 +10,29 @@ A dynamic, terminal-themed portfolio designed to showcase offensive security ski
 * **Design:** "Matrix/Terminal" aesthetic with custom clip-path UI elements.
 
 ## How to Run Locally
-1. Clone the repository: 
-   ```bash
-   git clone https://github.com/nicolas-raducan/cyber-portofolio-node.js
-   ```
+**1. Clone the repository:**
+```bash
+git clone [https://github.com/nicolas-raducan/cyber-portfolio-node.git]
+```
 
-2. Navigate into the project directory:
-    ```bash
-    cd nodeJsPortofolio
-    ```
+**2. Navigate into the project directory:**
+```bash
+cd nodeJsPortofolio
+```
 
-3.Install dependencies:
-    ```bash
-    npm install
-    ```
+**3. Install dependencies:**
+```bash
+npm install
+```
 
-## Running the Server
+## 💻 Running the Server
 
-For Development (Auto-restarts on file changes):
-    ```bash
-    npm run dev
-    ```
+**For Development (Auto-restarts on file changes):**
+```bash
+npm run dev
+```
 
-For Production:
-    ```bash
-    npm start
-    ```
+**For Production:**
+```bash
+npm start
+```
