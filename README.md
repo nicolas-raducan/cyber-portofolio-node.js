@@ -15,15 +15,19 @@ A dynamic, terminal-themed portfolio designed to showcase offensive security ski
    git clone https://github.com/nicolas-raducan/cyber-portofolio-node.js
 
 2. Navigate into the project directory:
+    ```bash
     cd nodeJsPortofolio
 
 3.Install dependencies:
+    ```bash
     npm install
 
 ## Running the Server
 
 For Development (Auto-restarts on file changes):
-npm run dev
+    ```bash
+    npm run dev
 
 ## For Production:
-npm start
+    ```bash
+    npm start
